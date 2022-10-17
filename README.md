@@ -7,19 +7,21 @@
 
 </p>
 
-![jaws](./images/jaws.jpeg)
+<img src="./images/jaws.jpeg" alt="jaws" width="400"/>
+
 
 ## Table of contents
 
 - [Introduction](#introduction)
 - [Data Cleaning](#data-cleaning)
-- [Who's more likely to be killed by a shark?](#exploratory-data-analysis)
-    * [Year](#year)
-    * [Age](#Age)
+- [Who's more likely to be attacked by a shark?](#exploratory-data-analysis)
+    * [Year](#1.1-years)
+    * [Age](#age)
     * [Sex](#Sex)
     * [Country](#Country)
-- [H1: Activity](#activity)
-- [H2: Season](#contributing)
+    * [Activity](#activity)
+- [Hypothesis one](#activity)
+- [Hypothesis two](#contributing)
 - [H1: Activity](#contributing)
 - [Last remarks](#last-remarks)
 - [Thanks](#thanks)
@@ -27,12 +29,13 @@
 
 ## Introduction
 
-Jaws made it pretty clear that sharks are human-killing machines and we should be absolutely terrified of them. Is  that right? Are sharks as deadly as we think they are? Or we are having an irrational fear? Let's see what the data says.
+Jaws made it pretty clear that sharks are human-killing machines and we should be absolutely terrified of them. Is  that right? Are sharks as deadly as we think they are? Let's see what the data says.
 
-For starters I think it's important to say that in the dataframe used for this analysis had 25 thousand rows, which means there have been more than 25 thousand reported attacks in the las centuries. That seems like a big number, until we compare it to converted into hours, amounts to 11,416 sharks killed worldwide every hour, that’s around 3 sharks per second, maybe sharks care more about the kind of food they eat than we do. 
+For starters I think it's important to say that in the dataframe used for this analysis had 25 thousand rows, which means there have been more than 25 thousand reported attacks in the last centuries. That seems like a big number, until we compare it to amount of sharks killed by people each day. 
 
+converted into hours, amounts to 11,416 sharks killed worldwide every hour, that’s around 3 sharks per second, maybe sharks care more about the kind of food they eat than we do. 
 
-![jail](./jail.jpg)
+![vending](./vending_mach.jpg)
 
 
 ## Data Cleaning
@@ -77,9 +80,11 @@ If you don't like thrilling, pulse-raising or breath-taking adventures, these ar
 
 ![country](./countries.png)
 
-## Hypothesis one: sharks are pretty nice towards divers  
 
-![vending](./vending_mach.jpg)
+#### 1.5 Activity
+
+
+![jail](./jail.jpg)
 
 There are about 30 million scuba dives around the world each week, that's 1.560 billion dives a year. On the other side, as we can see in the following graph, there have only been 194 shark attacks towards divers in the last 222 years. 
 
@@ -88,8 +93,22 @@ There are about 30 million scuba dives around the world each week, that's 1.560 
 
 
 
+## Hypothesis one: shark attacks are more likely to happen in the afternoon
 
 
+
+
+![time](./time.png)
+
+
+
+
+## Hypothesis two: shark attacks are more likely to happen in the summer
+
+
+![summer](./season_3.png)
+
+![summer](./pineapple.jpg)
 
 
 ## Last Remarks
@@ -99,12 +118,9 @@ I read that the people that work at the Global Shark Attack File are trying to m
 ![emotions](./emotions.jpg)
 
 
-## Thanks
+### Thanks
 
-Special thanks to The Life of Sharks for ilustrating my analysis, and for the work they do in shark conservation. 
+Special thanks to The Life of Sharks for their ilustrations, and for the work they do in shark conservation. 
 
 
-
-Some Text
-
-Enjoy :metal:
+Enjoy :shark:
